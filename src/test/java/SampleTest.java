@@ -10,6 +10,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 public class SampleTest {
     protected static ChromeDriver driver;
     @BeforeTest
@@ -18,7 +20,9 @@ public class SampleTest {
         ChromeOptions options = new BrowserOptions().getOptions(true);
 
         WebDriverManager.chromedriver().setup();
+        driver =  new ChromeDriver(options);
         driver=new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.calculator.net/");
     }
 
