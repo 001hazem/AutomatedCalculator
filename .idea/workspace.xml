@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81031a34-55f3-4eb7-982c-517c992c8ded" name="Changes" comment="update calculator">
+    <list default="true" id="81031a34-55f3-4eb7-982c-517c992c8ded" name="Changes" comment="update2 calculator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FilePOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FilePOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebSiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebSiteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674550350015</updated>
       <workItem from="1674550351257" duration="250000" />
-      <workItem from="1674550738083" duration="8998000" />
+      <workItem from="1674550738083" duration="9525000" />
     </task>
     <task id="LOCAL-00001" summary="Create calculator">
       <created>1674557648453</created>
@@ -132,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674560144613</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update2 calculator">
+      <created>1674560683700</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674560683700</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +147,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create calculator" />
     <MESSAGE value="update calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="update calculator" />
+    <MESSAGE value="update2 calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="update2 calculator" />
   </component>
 </project>
