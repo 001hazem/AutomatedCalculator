@@ -10,14 +10,11 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class SampleTest {
-
     protected static ChromeDriver driver;
-
     @BeforeTest
     public void setUp(){
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
-        driver.manage().window().maximize();
         driver.get("https://www.calculator.net/");
     }
 
@@ -27,6 +24,7 @@ public class SampleTest {
         String actualTitle = driver.getTitle();
         Assert.assertEquals(actualTitle,expectedTitle);
     }
+
     @DataProvider(name = "Factroal data provider")
     public Object[][] dpMethod() {
 
@@ -68,6 +66,7 @@ public class SampleTest {
         Assert.assertEquals(equalsResult.getText().trim(), ""+number3);
 
     }
+
     @AfterClass
     public void tearDown(){
         driver.quit();

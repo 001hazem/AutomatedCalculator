@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81031a34-55f3-4eb7-982c-517c992c8ded" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomePagePOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SampleTest.java" afterDir="false" />
+    <list default="true" id="81031a34-55f3-4eb7-982c-517c992c8ded" name="Changes" comment="Create calculator">
+      <change afterPath="$PROJECT_DIR$/src/test/java/FilePOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebSiteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomePagePOM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SampleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SampleTest.test2">
+  <component name="RunManager" selected="TestNG.SampleTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,9 +103,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SampleTest.test2" />
         <item itemvalue="TestNG.SampleTest" />
         <item itemvalue="TestNG.SampleTest.test1" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.SampleTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -107,11 +119,23 @@
       <option name="presentableId" value="Default" />
       <updated>1674550350015</updated>
       <workItem from="1674550351257" duration="250000" />
-      <workItem from="1674550738083" duration="6730000" />
+      <workItem from="1674550738083" duration="8217000" />
     </task>
+    <task id="LOCAL-00001" summary="Create calculator">
+      <created>1674557648453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674557648453</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create calculator" />
   </component>
 </project>
