@@ -33,7 +33,7 @@ public class SampleTest {
     }
 
     @Test(dataProvider = "Factroal data provider")
-    public void test2(int number1, String operation,int  number2, int number3)
+    public void verifyTheCalculatorIsFunctionality(int number1, String operation,int  number2, int number3)
     {
 
         String xpathNumber1="//span[@onclick='r("+number1+")']";
@@ -69,8 +69,8 @@ public class SampleTest {
 
     @AfterClass
     public void tearDown(){
+
         driver.quit();
     }
-
 
 }
