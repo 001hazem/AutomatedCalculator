@@ -14,15 +14,15 @@ import java.util.concurrent.TimeUnit;
 
 public class SampleTest {
     protected static ChromeDriver driver;
+
+
+
     @BeforeTest
     public void setUp(){
 
         ChromeOptions options = new BrowserOptions().getOptions(true);
-
         WebDriverManager.chromedriver().setup();
         driver =  new ChromeDriver(options);
-        driver=new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.calculator.net/");
     }
 

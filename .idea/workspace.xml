@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81031a34-55f3-4eb7-982c-517c992c8ded" name="Changes" comment="Add chrome Options to WebDriver">
+    <list default="true" id="81031a34-55f3-4eb7-982c-517c992c8ded" name="Changes" comment="Add chrome Wait">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SampleTest.java" afterDir="false" />
     </list>
@@ -45,6 +45,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/HazmSerdah/Desktop/Test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -115,7 +119,8 @@
       <option name="presentableId" value="Default" />
       <updated>1674550350015</updated>
       <workItem from="1674550351257" duration="250000" />
-      <workItem from="1674550738083" duration="11706000" />
+      <workItem from="1674550738083" duration="11908000" />
+      <workItem from="1674644423329" duration="1145000" />
     </task>
     <task id="LOCAL-00001" summary="Create calculator">
       <created>1674557648453</created>
@@ -152,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674566522552</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add chrome Wait">
+      <created>1674567501946</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674567501946</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +176,7 @@
     <MESSAGE value="update2 calculator" />
     <MESSAGE value="Add workflow Run" />
     <MESSAGE value="Add chrome Options to WebDriver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add chrome Options to WebDriver" />
+    <MESSAGE value="Add chrome Wait" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add chrome Wait" />
   </component>
 </project>
