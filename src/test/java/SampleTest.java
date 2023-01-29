@@ -26,6 +26,7 @@ public class SampleTest {
 
     @Test
     public void test1(){
+        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
         String expectedTitle = "Calculator.net: Free Online Calculators - Math, Fitness, Finance, Science";
         String actualTitle = driver.getTitle();
         Assert.assertEquals(actualTitle,expectedTitle);
