@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81031a34-55f3-4eb7-982c-517c992c8ded" name="Changes" comment="Add chrome Wait">
+    <list default="true" id="81031a34-55f3-4eb7-982c-517c992c8ded" name="Changes" comment="Active Headless chrome">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FilePOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FilePOM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SampleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,19 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/HazmSerdah/Desktop/Test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HazmSerdah/Desktop/Test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.SampleTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -120,7 +122,10 @@
       <updated>1674550350015</updated>
       <workItem from="1674550351257" duration="250000" />
       <workItem from="1674550738083" duration="11908000" />
-      <workItem from="1674644423329" duration="1145000" />
+      <workItem from="1674644423329" duration="2556000" />
+      <workItem from="1674721289710" duration="656000" />
+      <workItem from="1674928783324" duration="625000" />
+      <workItem from="1674985691949" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="Create calculator">
       <created>1674557648453</created>
@@ -164,11 +169,29 @@
       <option name="project" value="LOCAL" />
       <updated>1674567501946</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Active Headless chrome">
+      <created>1674719517286</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674719517286</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create calculator" />
@@ -177,6 +200,7 @@
     <MESSAGE value="Add workflow Run" />
     <MESSAGE value="Add chrome Options to WebDriver" />
     <MESSAGE value="Add chrome Wait" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add chrome Wait" />
+    <MESSAGE value="Active Headless chrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="Active Headless chrome" />
   </component>
 </project>
