@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81031a34-55f3-4eb7-982c-517c992c8ded" name="Changes" comment="Add TimeOut">
+    <list default="true" id="81031a34-55f3-4eb7-982c-517c992c8ded" name="Changes" comment="Add TimeOut2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SampleTest.java" afterDir="false" />
     </list>
@@ -52,7 +52,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.SampleTest">
+  <component name="RunManager" selected="TestNG.SampleTest.verifyTheCalculatorIsFunctionality">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Test" />
@@ -101,10 +101,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SampleTest.verifyTheCalculatorIsFunctionality" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SampleTest" />
+      <option name="METHOD_NAME" value="verifyTheCalculatorIsFunctionality" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SampleTest" />
+        <item itemvalue="TestNG.SampleTest.verifyTheCalculatorIsFunctionality" />
         <item itemvalue="TestNG.SampleTest.test1" />
+        <item itemvalue="TestNG.SampleTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="TestNG.SampleTest.test2" />
       </list>
@@ -123,7 +136,8 @@
       <workItem from="1674644423329" duration="2556000" />
       <workItem from="1674721289710" duration="656000" />
       <workItem from="1674928783324" duration="625000" />
-      <workItem from="1674985691949" duration="399000" />
+      <workItem from="1674985691949" duration="1029000" />
+      <workItem from="1675066419117" duration="1858000" />
     </task>
     <task id="LOCAL-00001" summary="Create calculator">
       <created>1674557648453</created>
@@ -181,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674985739772</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add TimeOut2">
+      <created>1674986109534</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674986109534</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +228,7 @@
     <MESSAGE value="Add chrome Wait" />
     <MESSAGE value="Active Headless chrome" />
     <MESSAGE value="Add TimeOut" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add TimeOut" />
+    <MESSAGE value="Add TimeOut2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add TimeOut2" />
   </component>
 </project>

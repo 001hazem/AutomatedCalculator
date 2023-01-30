@@ -1,13 +1,17 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import java.io.File;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
@@ -25,11 +29,14 @@ public class SampleTest {
 
 
     @Test
-    public void test1(){
+    public void test1() throws IOException {
         driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
         String expectedTitle = "Calculator.net: Free Online Calculators - Math, Fitness, Finance, Science";
         String actualTitle = driver.getTitle();
         Assert.assertEquals(actualTitle,expectedTitle);
+        File source_file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(source_file, new File("C:\\Users\\HazmSerdah\\Desktop\\screenshot.png"));
+
     }
 
     @DataProvider(name = "Factroal data provider")
@@ -40,8 +47,7 @@ public class SampleTest {
     }
 
     @Test(dataProvider = "Factroal data provider")
-    public void verifyTheCalculatorIsFunctionality(int number1, String operation,int  number2, int number3)
-    {
+    public void verifyTheCalculatorIsFunctionality(int number1, String operation,int  number2, int number3) throws IOException {
 
         String xpathNumber1="//span[@onclick='r("+number1+")']";
         WebElement FirstNumber1=driver.findElement(By.xpath(xpathNumber1));
@@ -71,6 +77,10 @@ public class SampleTest {
         WebElement equalsResult=driver.findElement(By.id("sciOutPut"));
         Assert.assertTrue(equalsString.isDisplayed());
         Assert.assertEquals(equalsResult.getText().trim(), ""+number3);
+
+        File source_file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(source_file, new File("C:\\Users\\HazmSerdah\\Desktop\\screenshot1.png"));
+
 
     }
 
